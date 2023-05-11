@@ -8,7 +8,7 @@
 }
 .containers{
   width: 18rem;
-  box-shadow: 2px 2px rgba(128, 128, 128, 0.614);
+  box-shadow: 2px 2px rgba(128, 128, 128, 0.373);
   height: 27rem !important;
   align-items: center;
 }
@@ -32,4 +32,9 @@
   height: 250px;
   border-radius: 10px !important;
   padding: 2px;
+}
+.containers:hover{
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
 }
